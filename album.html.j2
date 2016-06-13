@@ -1,11 +1,20 @@
 <html>
 	<head>
+	<style>
+	p {
+    display:inline;
+	font-family:Times New Roman;
+	position:relative;
+	font-weight:bold;
+    font-size: 26px;
+	color: #ccf5ff;
+	</style>
 	</head>
-	<body  bgcolor="#FDE456">
+	<body  bgcolor="#ccccff">
 	<div>
 	   <ul class="list-group">
            {% for photo in variables.photos %}
-		   <p>Obrazek</p>
+		   <p><br>Oto stworzony album!<br></p>
 	    <li class="list-group-item">
              <img src="{{ photo }}" class="img-circle" height="500" />
             </li>
