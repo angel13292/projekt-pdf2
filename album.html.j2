@@ -1,13 +1,16 @@
 <html>
 	<head>
 	</head>
-	<body>
+	<body  bgcolor="#FDE456">
+	<div>
 	   <ul class="list-group">
            {% for photo in variables.photos %}
+		   <p>Obrazek</p>
 	    <li class="list-group-item">
              <img src="{{ photo }}" class="img-circle" height="500" />
             </li>
 	   {% endfor %}
            </ul>
+		   </div>
 	</body>
 </html>
